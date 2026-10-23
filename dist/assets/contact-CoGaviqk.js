@@ -1,0 +1,14 @@
+import"./main-DCaLJbWY.js";const m=document.getElementById("contactRfqForm"),n=document.getElementById("contactSubmitBtn"),T=document.getElementById("themeToggleBtn"),B=document.getElementById("mobileMenuToggle"),t=document.getElementById("mobileDrawer"),I=document.getElementById("closeDrawerBtn"),y=document.getElementById("mobileDrawerCta"),o=document.getElementById("toastNotice");function w(){D(),A(),S()}function D(){if(!T)return;localStorage.getItem("cnm_theme")==="dark"?document.documentElement.setAttribute("data-theme","dark"):document.documentElement.removeAttribute("data-theme"),T.addEventListener("click",()=>{document.documentElement.getAttribute("data-theme")==="dark"?(document.documentElement.removeAttribute("data-theme"),localStorage.setItem("cnm_theme","light")):(document.documentElement.setAttribute("data-theme","dark"),localStorage.setItem("cnm_theme","dark"))})}function A(){!B||!t||(B.addEventListener("click",()=>{t.classList.add("open")}),I&&I.addEventListener("click",()=>{t.classList.remove("open")}),y&&y.addEventListener("click",()=>{t.classList.remove("open")}),document.querySelectorAll(".mobile-nav-link").forEach(e=>{e.addEventListener("click",()=>{t.classList.remove("open")})}),t.addEventListener("click",e=>{e.target===t&&t.classList.remove("open")}))}function S(){m&&m.addEventListener("submit",e=>{var u,g,E,h,p,v,f;e.preventDefault();const c=(u=document.getElementById("contactFullName"))==null?void 0:u.value.trim(),a=(g=document.getElementById("contactEmail"))==null?void 0:g.value.trim(),i=(E=document.getElementById("contactPhone"))==null?void 0:E.value.trim(),r=(h=document.getElementById("contactCommodity"))==null?void 0:h.value,d=(p=document.getElementById("contactIncoterms"))==null?void 0:p.value,l=(v=document.getElementById("contactVolume"))==null?void 0:v.value,s=(f=document.getElementById("contactRequirements"))==null?void 0:f.value.trim();if(!c||!a||!i||!r||!d||!l){b("Please fill in all required fields marked with *");return}const L=n.innerHTML;n.disabled=!0,n.innerHTML="<span>Formatting Container RFQ...</span>";const k=`*CAPITAL NUT MART - EXPORT CONTAINER RFQ*
+
+*Procurement Contact:* ${c}
+*Corporate Email:* ${a}
+*Direct Phone:* ${i}
+
+*Commodity & Grade:* ${r}
+*Shipping Terms:* ${d}
+*Estimated Volume:* ${l}
+`+(s?`*Specific Port / Batch Specs:* ${s}
+
+`:`
+`)+`*Target Dispatch:* Cochin Port (COK), India
+_Submitted via Capital Nut Mart Official Trade Desk._`;setTimeout(()=>{n.disabled=!1,n.innerHTML=L,b("Quotation generated! Opening Trade Desk WhatsApp...");const C=`https://wa.me/919495596102?text=${encodeURIComponent(k)}`;window.open(C,"_blank"),m.reset()},700)})}function b(e){o&&(o.querySelector(".toast-text").textContent=e,o.classList.add("show"),setTimeout(()=>{o.classList.remove("show")},4500))}document.addEventListener("DOMContentLoaded",w);
