@@ -25,7 +25,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB Cochin / Tuticorin, CIF Global Hub Ports",
     minOrderQuantity: "1 Metric Ton (Consignment) / 1×20ft FCL",
-    certifications: ["Apeda Registered", "FSSAI Certified Co.", "ISO 22000", "HACCP"],
+    certifications: ["Apeda Registered", "FSSAI Certified Co."],
     description: "Revered as the 'King of Cashews', W-180 represents the largest, most prestigious cashew caliber in global trade. Plucked fresh from coastal plantation orchards, steam-peeled, and Sortex graded to deliver huge whole crescent kernels with an exceptionally rich, buttery crunch."
   },
   {
@@ -51,7 +51,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB, CIF, CFR to any major container port",
     minOrderQuantity: "1 Metric Ton / 1×20ft FCL (16 MT)",
-    certifications: ["Apeda Registered", "FSSAI Certified Co.", "ISO 22000", "HACCP"],
+    certifications: ["Apeda Registered", "FSSAI Certified Co."],
     description: "The global benchmark for luxury confectionary and gourmet retail packing. W-240 cashew kernels offer an attractive large curve, uniform ivory color, and delicate natural sweetness with consistent moisture control."
   },
   {
@@ -77,7 +77,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB Cochin, CIF Jebel Ali / Rotterdam / Singapore / New York",
     minOrderQuantity: "2 Metric Tons / 1×20ft FCL (16 MT)",
-    certifications: ["Apeda Registered", "FSSAI Certified Co.", "ISO 22000", "HACCP"],
+    certifications: ["Apeda Registered", "FSSAI Certified Co."],
     description: "The highest volume commercial export grade worldwide. W-320 cashews combine outstanding cost efficiency with uniform crescent shapes and creamy texture, making them the first choice for food manufacturers, re-packers, and supermarket chains."
   },
 
@@ -107,7 +107,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB Cochin Port (COK), CIF Worldwide Hubs",
     minOrderQuantity: "1 Metric Ton / 1×20ft FCL (15 MT)",
-    certifications: ["Spices Board of India Certified", "FSSAI Certified Co.", "ISO 22000", "HACCP"],
+    certifications: ["Spices Board of India Certified", "FSSAI Certified Co."],
     description: "Harvested directly from certified heritage spice estates in Wayanad and the Malabar coast. These extra-bold Tellicherry peppercorns are vine-ripened, hand-picked, and sun-cured to lock in robust essential piperine oils, deep wrinkled ebony skin, and bold penetrating aroma."
   },
   {
@@ -133,7 +133,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB Cochin, CIF Jebel Ali / Jeddah / Singapore / Rotterdam",
     minOrderQuantity: "500 kg (Sample Lot) / 1×20ft FCL",
-    certifications: ["Spices Board of India Certified", "ISO 22000", "HACCP", "Halal"],
+    certifications: ["Spices Board of India Certified", "Halal"],
     description: "Hand-picked high-elevation green cardamom pods meticulously inspected on rustic wooden curing tables direct from the plantation. Celebrated across the Middle East and Europe for robust cineole aromatic oil, vivid emerald color, and dense seed count."
   },
 
@@ -163,7 +163,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB West Coast, CIF Jebel Ali / Rotterdam / Nhava Sheva",
     minOrderQuantity: "5 Metric Tons / 1×20ft FCL (18 MT)",
-    certifications: ["USDA Grade Standard", "HACCP", "Non-GMO", "Phytosanitary"],
+    certifications: ["USDA Grade Standard", "Non-GMO", "Phytosanitary"],
     description: "Harvested directly from orchard boughs at natural hull-split. Each almond is field-sorted from its fuzzy green hull to guarantee pure cinnamon skin, rich oil profile, and unbroken kernel integrity."
   },
   {
@@ -189,7 +189,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB Valparaiso, CIF Global Hub Ports",
     minOrderQuantity: "2 Metric Tons / 1×20ft FCL (11 MT)",
-    certifications: ["GlobalG.A.P.", "ISO 22000", "HACCP", "BRC Food"],
+    certifications: ["GlobalG.A.P.", "BRC Food"],
     description: "Sourced direct from tree groves and separated from the fresh green outer husk before sun drying. Yields pristine luminous blonde halves with a delicate buttery sweetness and superior oil stability."
   },
   {
@@ -215,7 +215,7 @@ export const exportProducts = [
     ],
     incoterms: "FOB Bandar Abbas, CIF Jebel Ali / Singapore / Hamburg",
     minOrderQuantity: "3 Metric Tons / 1×20ft FCL",
-    certifications: ["EU Aflatoxin Certified", "HACCP", "Phytosanitary"],
+    certifications: ["EU Aflatoxin Certified", "Phytosanitary"],
     description: "Plucked in intact bough clusters while the hulls blush in green and pink. Split naturally by desert sun while still on the tree, revealing vibrant purple-emerald kernels with concentrated nut sweetness."
   },
 
@@ -245,7 +245,7 @@ export const exportProducts = [
     ],
     incoterms: "CIF / Air Cargo Priority to worldwide hubs",
     minOrderQuantity: "1 Metric Ton / Refrigerated Reefer Container",
-    certifications: ["GlobalG.A.P.", "ISO 22000", "Halal", "Kosher"],
+    certifications: ["GlobalG.A.P.", "Halal", "Kosher"],
     description: "Revered as the crown of desert fruits. Harvested directly from towering date palms in the Jordan Valley, hand-graded on farm tables for perfect skin adherence and deep honeyed caramel notes."
   }
 ];
